@@ -4,7 +4,7 @@
 		<description></description>
 		<author>John Turner</author>
 		<update version="0.0.1">
-			<file name="MelinaDND.xml" url="" />
+			<file name="MelinaDND.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/MelinaDND.xml" />
 		</update>
 	</info>
 	<element name="Torture Tools" type="Item" source="Melina DND Campaign" id="ID_MELON_TORTURE_TOOL">		
