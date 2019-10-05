@@ -1,0 +1,202 @@
+<elements>
+	<info>
+		<name>Meloria DND Campaign</name>
+		<description></description>
+		<author>John Turner</author>
+		<update version="0.0.1">
+			<file name="MelinaDND.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/Meloria/Meloria.xml" />
+		</update>
+	</info>
+	<element name="Torture Tools" type="Item" source="Melina DND Campaign" id="ID_MELON_TORTURE_TOOL">		
+		<description>
+			<p>This rolling up cloth rectangle complete with pliers, a small knife, embalming tools, a set of small saws, finger needles, and a blood letting kit</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="5">2 lbs.</set>
+      		<set name="type">Tool</set>
+		</setters>
+	</element>
+	<element name="Fontainium" type="Item" source="Melina DND Campaign" id="ID_MELON_FONTANIUM">		
+		<description>
+			<p>Fontainium</p>
+		</description>
+		<setters>
+			<set name="category">Misc</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Misc</set>
+		</setters>
+	</element>
+	<element name="Dire Wolf Tooth" type="Item" source="Melina DND Campaign" id="ID_MELON_DIRE_WOLF_TOOTH">		
+		<description>
+			<p>Dire Wolf Tooth</p>
+		</description>
+		<setters>
+			<set name="category">Misc</set>
+			<set name="cost" currency="gp">???</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Misc</set>
+		</setters>
+	</element>
+	<element name="Gray Dire Wolf Pelt" type="Item" source="Melina DND Campaign" id="ID_MELON_GRAY_DIRE_WOLF_PELT">		
+		<description>
+			<p>Gray Dire Wolf Pelt</p>
+		</description>
+		<setters>
+			<set name="category">Misc</set>
+			<set name="cost" currency="gp">???</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Misc</set>
+		</setters>
+	</element>
+	<element name="White Dire Wolf Pelt" type="Item" source="Melina DND Campaign" id="ID_MELON_WHITE_DIRE_WOLF_PELT">		
+		<description>
+			<p>White Dire Wolf Pelt</p>
+		</description>
+		<setters>
+			<set name="category">Misc</set>
+			<set name="cost" currency="gp">???</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Misc</set>
+		</setters>
+	</element>
+	<element name="Dire Wolf Intestine" type="Item" source="Melina DND Campaign" id="ID_MELON_DIRE_WOLF_INTESTINE">		
+		<description>
+			<p>Feet Dire Wolf Intestine</p>
+		</description>
+		<setters>
+			<set name="category">Misc</set>
+			<set name="cost" currency="gp">???</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Misc</set>
+		</setters>
+	</element>
+	<element name="Glowworm" type="Item" source="Melina DND Campaign" id="ID_MELON_GLOWWORM">		
+		<description>
+			<p>Glowworm</p>
+		</description>
+		<setters>
+			<set name="category">Materials</set>
+			<set name="cost" currency="gp">55</set>
+			<set name="weight" lb="5">1 lbs.</set>
+      		<set name="type">Materials</set>
+		</setters>
+	</element>
+	<element name="Cli Lyre" type="Magic Item" source="Dungeon Master’s Guide" id="ID_MELON_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_CLI_LYRE">
+		<description>
+			<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+			<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+			<p class="indent">When you use the instrument to cast a spell that causes targets to become charmed on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.</p>
+			<table>
+				<thead>
+					<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+				<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+				<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+				<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+				<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+				<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+				<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+				<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE"/>
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE"/>
+			<grant type="Spell" id="ID_PHB_SPELL_WIND_WALL"/>
+		</rules>
+	</element>
+	<element name="Arrows or Return" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_DMG_ARROW_OR_RETURN">
+		<description>
+			<p>After firing and striking something, the arrow will vanish in a puff of smoke and return to your quiver</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">100</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Alchemists fire arrows" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_DMG_FIRE_ARROW">
+		<description>
+			<p>Contains a small goal of alchemists fire, dealing an additional 1d4 damage</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">100</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Shock Arrows" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_DMG_SHOCK_ARROW">
+		<description>
+			<p>A thunder gem is sharpened into a point as this arrow's head. Upon a hit the brittle gem shatter, releasing an additional 1d8 lighting damage in a 10 foot radius</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">100</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Grapple Hook Arrows" type="Item" source="Melina DND Campaign" id="ID_MELON_DMG_GRAPPLE_HOOK_ARROW">
+		<description>
+			<p>Does not do standard damage. Can be used as a standard grapple hook as well as an attempt to attach it to a target. </p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sentient Arrows " type="Magic Item" source="Melina DND Campaign" id="ID_MELON_DMG_SENTIENT_ARROW">
+		<description>
+			<p>The arrow is actually a living organism shaped like an arrow. It's head is the arrow head. When drawing blood it sprouts it's thin limbs and begins trying to inject itself inside its target host. The initial strike does damage and the target must succeed a constitution saving throw or else the creature will successfully dive into the host. While it will deal 1d4 damage per turn and the host can feel the creature moving around inside. </p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">100</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Armor Piercing Arrows" type="Item" source="Melina DND Campaign" id="ID_MELON_DMG_ARMOR_PIERCING_ARROW">
+		<description>
+			<p>adds +2 to hit.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+	</element>
+	<element name="Paradox Goggles" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_DMG_PARADOX_GOOGLES">
+		<description>
+			<p>Once per day, using a bonus action activates these goggles. For the next minute, any attacks against you have disadvantage. They don't make your vision better; but the enemy's vision worse!</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+</elements>
