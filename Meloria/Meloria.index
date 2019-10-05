@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Meloria</name>
+		<description>Random Odds and Ends for our DnD campaign</description>
+		<author url="https://github.com/whinis/MelinaDND">Whinis</author>
+		<update version="0.0.1">
+			<file name="Meloria.index" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/Meloria/Meloria.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="Meloria.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/Meloria/Meloria.xml" />
+	</files>
+</index>
