@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>MelinaDND</name>
+		<description>Random Odds and Ends for our DnD campaign</description>
+		<author url="https://github.com/whinis/MelinaDND">Whinis</author>
+		<update version="0.0.1">
+			<file name="players-handbook.index" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/melina.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="MelinaDND.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/MelinaDND.xml" />
+	</files>
+</index>
