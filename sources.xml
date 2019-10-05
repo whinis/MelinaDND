@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/sources.xml" />
+		</update>
+	</info>
+	<element name="Melina DND" type="Source" source="Melina DND" id="ID_MELINA">
+		<description>
+			<![CDATA[<p>Just our custom campaign stuff</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">MELINA</set>
+			<set name="author" abbreviation="WHINIS" url="http://www.Whinis.com">Whinis</set>
+			<set name="homebrew">true</set>
+			<set name="release">20191005</set>
+		</setters>
+	</element>
+</elements>
