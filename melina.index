@@ -10,6 +10,6 @@
 	</info>
 	<files>	
 		<file name="sources.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/sources.xml" />
-		<file name="MelinaDND.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/MelinaDND.xml" />
+		<file name="Meloria.index" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/Meloria/Meloria.index" />
 	</files>
 </index>
