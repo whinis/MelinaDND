@@ -1,0 +1,80 @@
+<elements>
+	<info>
+		<name>Fey Rune Campaign</name>
+		<description></description>
+		<author>John Turner</author>
+		<update version="0.0.1">
+			<file name="Fey_Rune.xml" url="https://raw.githubusercontent.com/whinis/MelinaDND/master/Meloria/Fey_Rune.xml" />
+		</update>
+	</info>
+	<element name="Lobo And Jacket" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_LOBO_AND_JACKET">
+		<description>
+			<p>A simple but elegant hand crossbow/rapier pair. Lobo, the rapier consists of a silver blade ending in two prongs, and a broad silver handle guard with a blue tassel. Jacket is an ordinary looking cartridge-fed hand crossbow, except for a pair of wing-like ornaments on the side and a long silver chain connecting it to Lobo from the grip.</p>
+<p>Lobo, rapier:
+Martial, finesse, light
+1d8 + DEX/STR piercing dmg
+Jacket: 
+Simple, light, ranged, loading 30/120ft
+1d6 + DEX piercing dmg
+3 charges, as an action user may expend one charge to activate one of the following effects:
+*Disconnecting the chain from the end of one weapon will cause it to float in place and fight autonomously for you for one minute, attacking anyone you designate a foe. The weapon adopts your stats as its own, and attacks alongside your attack action. As a bonus action, you may command the weapon to attack a different target. This works for both Lobo and Jacket, but only one may work autonomously at a time.
+*A switch on the side of Jacket pops out, which when flipped elongates the the wings and barrel and widens the throwing arms, allowing Lobo to be loaded as ammunition. Make a ranged attack, and on hit Lobo deals 2d6 piercing damage and 1d6 lightning damage. The chain remains electrified between Lobo and Jacket so long as lobo remains impaled in the target, dealing 1d6 lightning damage to any creature that touches it. Impaled target must make a DC 15 CON saving throw to remove Lobo. On a miss, user may use a bonus action to reel in Lobo but the charge will be wasted.
+Halarian Halberd - An ornate and surprisingly light halberd, the ancient tribe of Halar used these weapons in conjunction with wind magic to create extremely elaborate and beautiful ritual dances. The head of the shaft is mounted with a sharpened golden ring, adorned with bright blue and red feathers. Golden floral inlays decorate the shaft, and bright red fur wraps the haft for grip. The feathers on the ring glow slightly, having been used in hundreds of rituals these plumes have been bathed in radiance and can be used as an arcane focus.
+Halberd, Martial weapon
+Reach 10ft, two-handed, finesse
+1d10 + DEX/STR slashing damage
+3 charges; *Spinning the halberd above their head, user may expend one charge to create a gust of wind, either:
+    *Surrounding themselves in the wind, imposing disadvantage on ranged attacks
+    *Encase the blade in wind, adding a +1 to attack and 1d6 slashing damage
+    *Send the wind torrenting about the area, causing any creature in a 20ft radius to make a DC 13 DEX saving throw, or be knocked prone. The user may concentrate on this ability, causing the wind to continue in a radius around the user. Any target that enters the radius or ends their turn inside of must repeat the saving throw, and a target that is already prone must make the same saving throw to stand up, in addition to spending movement.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="cost" currency="sp">0</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="range">30/120</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
+		</setters>
+	</element>
+	<element name="Primal Dancers Chakrams" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_PRIMAL_DANCER">
+		<description>
+			<p>Primal Dancers Chakrams: A pair of exotic, razor sharp ring blades, with 4 leaf-tip blade protrusions dotting the circumference. Gold metal composes the inner guard, with the gold bleeding into the blade a bit for artistic design. These blades will always return when thrown, and without proficiency wielder must make a DC 14 DEX saving throw to catch them on return. 
+Ranged/Melee, 30/60ft
+1d8+DEX slashing dmg
+3 charges, wielder may expend one charge for one of two effects:
+*On attack, you may concentrate on the chakram to spin ferociously at a desired point within range, hovering in place for up to one minute. Targets that start or end their turn within 5ft of a spinning chakram must make a DC 12 DEX saving throw or take 1d6 slashing damage, and an additional 1d6 bleed damage at the start of their next turn. 
+*While wielding both chakrams in hand, you may expand a charge to perform a mesmerising dance, imposing a DC 14 WIS save throw on anyone within sight in 30ft. On a failed save, targets see a mirror image of your, mimicking all your actions for one minute. Hypnotized targets attacks have disadvantage against you.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="cost" currency="sp">0</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="range">30/60</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>
+		</setters>
+	</element>
+	<element name="Anger and Pestilence" type="Magic Item" source="Melina DND Campaign" id="ID_MELON_ANGER_PESTILENCE">
+		<description>
+			<p>--Anger and Pestilence - A pair of gauntleted knuckle dusters, one a bright right and the other a deep onyx.The red one, Anger, has protrusions in the shape of burning fire and the other black skulls for impact points on the dusters. Gold chains wrap the black ones bracer portion, and silver chains the red.
+Simple weapons, they can be considered two separate weapons for the case of dual wielding. 
+Dealing 1d8+Strength on hit
+On a successful hit with either bracer, you may expand one of two charges to inflict an additional effect depending on which bracer hits.
+*Anger - Deals an additional 1d4 damage, and imposes a -2 to Pestilences activated saving throw on target for 1 minute
+*Pestilence - Adds a 1d4 to Angers damage. Target must make a DC 13 CON saving throw, or be inflicted with a vicious malady for 2 rounds of combat, or 12 seconds. Roll percentile die to determine the disease inflicted</p>
+		</description>
+		<setters> 
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="cost" currency="sp">0</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>
+		</setters>
+	</element>
+</elements>
